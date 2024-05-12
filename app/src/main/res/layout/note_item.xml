@@ -3,20 +3,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="155dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
         <RelativeLayout
-            android:layout_width="356dp"
-            android:layout_height="56dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
@@ -45,7 +45,6 @@
                 android:layout_marginEnd="10dp"
                android:layout_toStartOf="@id/deleteButton"
                android:src="@drawable/edit3" />
-
 
         </RelativeLayout>
 
